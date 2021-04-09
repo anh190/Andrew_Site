@@ -20,6 +20,6 @@ jobs:
         script: |
           mkdir andrew
           cd andrew
-          git clone https://github.com/anh190/Andrew_Site.git
+          sudo git clone https://github.com/anh190/Andrew_Site.git
           rsync -r ~/andrew/Andrew_Site/* /var/www/ucsddev.site/public_html/members/
           echo 'Deployment successful to digital ocean'
